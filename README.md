@@ -1,40 +1,96 @@
-# Hi, I'm Dhiraj Kumar Singh! 👋
+# Dhiraj Singh
 
-## 🚀 About Me
+I build practical AI learning systems for people who want clarity, structure, and real implementation depth through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
 
-AI Trainer | Software Engineer | Open Source Contributor
+My GitHub is organized around one idea: **learn AI by following clear paths, building projects, and understanding reliability instead of collecting random tutorials.**
 
-I build educational repositories and tools that help people learn AI agent systems — from fundamentals to production-ready patterns. I believe in learning by doing.
+## Start Here
 
-- 🧠 Specializing in **Multi-Agent Systems** and **Autonomous AI Agents**
-- 🎓 Creating hands-on learning resources for the AI community
-- 🛠️ Languages: Python, JavaScript, TypeScript
-- 🔭 Currently building: **A complete curriculum on AI Agent architectures**
+Pick the path that matches what you want to do.
 
-## 📚 AI Agent Learning Path
+| Goal | Start With | Then Move To |
+|------|------------|--------------|
+| **Switch into AI from another role** | [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | Prompting, evals, applied AI projects |
+| **Learn multi-agent systems** | [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | Architectures, coordination, planning, collaboration |
+| **Learn prompt engineering properly** | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Cursor workflows, evals, anti-hallucination |
+| **Build more reliable AI systems** | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Production workflows, review, iteration |
 
-A structured, 14-repository curriculum covering agent systems, prompt engineering, Cursor workflows, evaluation-driven reliability, and AI career transition paths. Each repo is designed to be practical, teachable, and implementation-oriented.
+## What You Will Find Here
 
-| # | Repository | What You'll Learn |
-|---|-----------|-------------------|
-| 1 | [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | Agent fundamentals, message passing, memory |
-| 2 | [agent-communication-protocols](https://github.com/dhirajkrsingh/agent-communication-protocols) | FIPA ACL, pub-sub, contract net, blackboard |
-| 3 | [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns) | Reactive, BDI, utility-based architectures |
-| 4 | [distributed-agent-coordination](https://github.com/dhirajkrsingh/distributed-agent-coordination) | Leader election, auctions, consensus |
-| 5 | [agent-based-simulation](https://github.com/dhirajkrsingh/agent-based-simulation) | Predator-prey, flocking, epidemic models |
-| 6 | [autonomous-agent-design](https://github.com/dhirajkrsingh/autonomous-agent-design) | Autonomous loops, goal-oriented, self-correction |
-| 7 | [agent-learning-algorithms](https://github.com/dhirajkrsingh/agent-learning-algorithms) | Q-learning, multi-agent RL, evolutionary strategies |
-| 8 | [agent-environment-interaction](https://github.com/dhirajkrsingh/agent-environment-interaction) | Environment design, partial observability, reward shaping |
-| 9 | [agent-planning-reasoning](https://github.com/dhirajkrsingh/agent-planning-reasoning) | STRIPS, HTN planning, chain-of-thought reasoning |
-| 10 | [agent-collaboration-frameworks](https://github.com/dhirajkrsingh/agent-collaboration-frameworks) | Role-based teams, conversation loops, pipeline orchestration |
-| 11 | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Prompt anatomy, grounding, few-shot design, chaining, validation |
-| 12 | [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) | Cursor prompts for discovery, planning, implementation, review, docs |
-| 13 | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Prompt evals, uncertainty handling, hallucination taxonomies, release gates |
-| 14 | [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | What to learn to switch into AI from any role, with bridge paths and plans |
+This profile is not a random collection of repos. It is a structured curriculum.
 
-## 🌍 Inspired By & References
+### 1. Agent Systems Track
 
-These repos draw from the best in the field:
+- [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics)
+- [agent-communication-protocols](https://github.com/dhirajkrsingh/agent-communication-protocols)
+- [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns)
+- [distributed-agent-coordination](https://github.com/dhirajkrsingh/distributed-agent-coordination)
+- [agent-based-simulation](https://github.com/dhirajkrsingh/agent-based-simulation)
+- [autonomous-agent-design](https://github.com/dhirajkrsingh/autonomous-agent-design)
+- [agent-learning-algorithms](https://github.com/dhirajkrsingh/agent-learning-algorithms)
+- [agent-environment-interaction](https://github.com/dhirajkrsingh/agent-environment-interaction)
+- [agent-planning-reasoning](https://github.com/dhirajkrsingh/agent-planning-reasoning)
+- [agent-collaboration-frameworks](https://github.com/dhirajkrsingh/agent-collaboration-frameworks)
+
+### 2. Prompting And Reliability Track
+
+- [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations)
+- [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows)
+- [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination)
+
+### 3. Career Transition Track
+
+- [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap)
+
+## Techniques And Areas Covered
+
+These are the main systems and techniques I have been organizing and working through in public:
+
+- Multi-agent systems
+- Agent communication protocols
+- BDI, reactive, and utility-based architectures
+- Distributed coordination and consensus
+- Planning and reasoning patterns
+- Autonomous agent loops and self-correction
+- Q-learning, multi-agent learning, and evolutionary agents
+- Prompt anatomy and prompt chaining
+- Few-shot prompting and grounded generation
+- RAG, tool use, and agent workflows
+- LLM evals and anti-hallucination patterns
+- Cursor development workflows for discovery, implementation, review, and debugging
+- AI career transition paths from technical and non-technical roles
+
+## What To Do
+
+If you are new here, this is the recommended approach:
+
+1. Pick one goal only.
+2. Start with the repo that matches that goal.
+3. Build as you learn.
+4. Use evaluation and proof of work as the standard, not passive reading.
+
+## What Not To Do
+
+These are the mistakes I want people to avoid:
+
+1. Do not start with advanced agents before understanding the basics.
+2. Do not rely only on prompt engineering and skip data, evaluation, and system design.
+3. Do not treat AI output as trustworthy without validation.
+4. Do not collect courses without building portfolio-quality work.
+5. Do not learn everything at once; choose the role and depth that match your target.
+
+## Current Focus
+
+I am building a public learning ecosystem around:
+
+- AI agent architectures
+- prompt engineering for developers
+- evaluation-driven AI reliability
+- practical AI career transition guidance
+
+## References And Inspiration
+
+These public ecosystems have strongly influenced the way I structure these repos:
 
 [![AutoGen](https://img.shields.io/badge/microsoft-autogen-blue)](https://github.com/microsoft/autogen)
 [![CrewAI](https://img.shields.io/badge/crewAIInc-crewAI-green)](https://github.com/crewAIInc/crewAI)
@@ -43,16 +99,14 @@ These repos draw from the best in the field:
 [![Mesa](https://img.shields.io/badge/projectmesa-mesa-purple)](https://github.com/projectmesa/mesa)
 [![Ray/RLlib](https://img.shields.io/badge/ray--project-ray-yellow)](https://github.com/ray-project/ray)
 
-## 📊 GitHub Stats
+## GitHub Snapshot
 
-![Dhiraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=dhirajkrsingh&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dhirajkrsingh&layout=compact&theme=radical)
+![Dhiraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=dhirajkrsingh&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dhirajkrsingh&layout=compact&theme=default)
 
-## 📫 Connect With Me
+## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/dhirajkrsingh)
 [![Twitter](https://img.shields.io/badge/Twitter-@dhirajkrsingh-blue?logo=twitter)](https://twitter.com/dhirajkrsingh)
 
----
-
-*Star ⭐ the repos if you find them useful! Open to collaboration and feedback.*
+If you are learning from these repositories, start with the repo that matches your goal and move in order instead of jumping randomly.
