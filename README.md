@@ -1,8 +1,9 @@
 # Dhiraj Singh
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-	<img alt="Dhiraj Singh profile banner covering AI learning systems, prompt reliability, multi-agent systems, and career transition." src="./assets/hero-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-light.svg">
+  <img alt="Dhiraj Singh – neofetch-style profile card showing AI learning systems focus, VAIU Research Lab affiliation, and GitHub stats" src="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-light.svg" width="960">
 </picture>
 
 I build practical AI learning systems, reliability playbooks, and career-transition roadmaps through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
