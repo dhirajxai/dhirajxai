@@ -1,8 +1,18 @@
 # Dhiraj Singh
 
-I build practical AI learning systems for people who want clarity, structure, and real implementation depth through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
+I build practical AI learning systems, reliability playbooks, and career-transition roadmaps through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
 
-My GitHub is organized around one idea: **learn AI by following clear paths, building projects, and understanding reliability instead of collecting random tutorials.**
+My GitHub is organized around one idea: **learn AI through structured paths, real projects, and evaluation-driven thinking instead of random tutorials and hype.**
+
+## What I Am Building
+
+This portfolio is designed for three groups:
+
+- people switching into AI from another role
+- developers who want reliable prompting and AI workflows
+- builders who want to understand multi-agent systems from the ground up
+
+The aim is not to publish disconnected repositories. The aim is to build a public AI learning ecosystem with clear routes, practical assets, and better judgment around reliability.
 
 ## Start Here
 
@@ -14,6 +24,18 @@ Pick the path that matches what you want to do.
 | **Learn multi-agent systems** | [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | Architectures, coordination, planning, collaboration |
 | **Learn prompt engineering properly** | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Cursor workflows, evals, anti-hallucination |
 | **Build more reliable AI systems** | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Production workflows, review, iteration |
+
+## Flagship Work
+
+If you only open a few repositories, start with these:
+
+| Repository | Why It Matters |
+|------------|----------------|
+| [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | My strongest differentiated repo for people moving into AI from software, data, QA, product, ops, or non-technical backgrounds |
+| [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | The cleanest entry point into the full agent systems track |
+| [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | The core prompt design repo for developers who want grounded, repeatable outputs |
+| [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | The reliability layer for testing prompt quality and reducing unsupported model behavior |
+| [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) | Practical AI-assisted software development workflows across discovery, implementation, debugging, and review |
 
 ## What You Will Find Here
 
@@ -41,6 +63,17 @@ This profile is not a random collection of repos. It is a structured curriculum.
 ### 3. Career Transition Track
 
 - [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap)
+
+## Why This Stands Out
+
+Most public AI profiles either show scattered experiments or generic learning lists.
+
+This one is organized around:
+
+- sequenced learning paths instead of disconnected repos
+- reliability and evaluation, not just generation
+- practical developer workflows, not only theory
+- career-transition assets that help people turn learning into proof of work
 
 ## Techniques And Areas Covered
 
@@ -88,6 +121,12 @@ I am building a public learning ecosystem around:
 - evaluation-driven AI reliability
 - practical AI career transition guidance
 
+## Proof And Direction
+
+This portfolio currently emphasizes structured learning systems.
+
+The next layer I am building is applied showcase work that demonstrates how these tracks connect in real implementation settings: learning path to project, prompt design to reliability, and agent concepts to practical system design.
+
 ## References And Inspiration
 
 These public ecosystems have strongly influenced the way I structure these repos:
@@ -109,4 +148,4 @@ These public ecosystems have strongly influenced the way I structure these repos
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/dhirajkrsingh)
 [![Twitter](https://img.shields.io/badge/Twitter-@dhirajkrsingh-blue?logo=twitter)](https://twitter.com/dhirajkrsingh)
 
-If you are learning from these repositories, start with the repo that matches your goal and move in order instead of jumping randomly.
+If you are learning from these repositories, start with the repo that matches your goal and move in sequence instead of jumping randomly.
