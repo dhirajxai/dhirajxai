@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 USER_API = "https://api.github.com/users/dhirajkrsingh"
 
-_ASCII_RAMP = "@%B#8&WM$0QOCJUYX*+;:-,. "
+# Dark-to-light: dense chars represent dark pixels, spaces represent light.
+_ASCII_RAMP = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 
 
 def fetch_user_data() -> dict:
@@ -35,9 +36,19 @@ def fetch_image_bytes(url: str) -> bytes:
         return r.read()
 
 
-def image_to_ascii(img_bytes: bytes, cols: int = 44, rows: int = 30) -> list[str]:
+def image_to_ascii(img_bytes: bytes, cols: int = 48, aspect: float = 0.55) -> list[str]:
+    """Convert image to ASCII art with proper aspect-ratio correction.
+
+    Monospace glyphs are taller than wide (~1.8:1). *aspect* compensates so
+    the output looks square rather than stretched vertically.
+    """
     img = Image.open(io.BytesIO(img_bytes)).convert("L")
+    w, h = img.size
+    cell_w = w / cols
+    cell_h = cell_w / aspect          # taller cells → fewer rows
+    rows = int(h / cell_h)
     img = img.resize((cols, rows), Image.LANCZOS)
+
     ramp = _ASCII_RAMP
     n = len(ramp) - 1
     return [
@@ -88,7 +99,7 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
         val_col    = "#C9D1D9"
         header_col = "#58A6FF"
         lab_col    = "#D2A8FF"
-        green_col  = "#3FB950"
+        green_col  = "#E6EDF3"
         stats_col  = "#FFA657"
         hi_col     = "#79C0FF"
         palette    = ["#FF5F57","#FFBD2E","#28C840","#58A6FF","#D2A8FF","#FFA657","#79C0FF","#A5F3FC"]
@@ -101,7 +112,7 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
         val_col    = "#24292F"
         header_col = "#0969DA"
         lab_col    = "#8250DF"
-        green_col  = "#1A7F37"
+        green_col  = "#1F2328"
         stats_col  = "#9A6700"
         hi_col     = "#0550AE"
         palette    = ["#FF5F57","#FFBD2E","#28C840","#0969DA","#8250DF","#9A6700","#0550AE","#0E7490"]
@@ -175,7 +186,7 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
 
     # technical rows
     parts.append(kv(iy, "Languages", "Python, Markdown, YAML"                       ));   iy += LH
-    parts.append(kv(iy, "Tracks",    "Prompt Eng · Multi-Agent · Career", vc=green_col)); iy += LH
+    parts.append(kv(iy, "Tracks",    "Prompt Eng · Multi-Agent · Career", vc=hi_col)); iy += LH
     parts.append(kv(iy, "Tools",     "LLMs, RAG, Cursor AI, GitHub"                 ));   iy += LH
     parts.append(kv(iy, "Repos",     f"{repos} public repositories",       vc=stats_col)); iy += LH
     parts.append(kv(iy, "Followers", str(followers)                                  ));   iy += LH * 1.5
@@ -201,7 +212,7 @@ def main() -> None:
     ASSETS.mkdir(parents=True, exist_ok=True)
     user      = fetch_user_data()
     img_bytes = fetch_image_bytes(user["avatar_url"])
-    ascii_art = image_to_ascii(img_bytes, cols=44, rows=30)
+    ascii_art = image_to_ascii(img_bytes, cols=48)
 
     (ASSETS / "hero-dark.svg").write_text(
         neofetch_svg("dark",  ascii_art, user), encoding="utf-8"
