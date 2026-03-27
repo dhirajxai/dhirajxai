@@ -1,8 +1,25 @@
 # Dhiraj Singh
 
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+	<img alt="Dhiraj Singh profile banner covering AI learning systems, prompt reliability, multi-agent systems, and career transition." src="./assets/hero-light.svg">
+</picture>
+
 I build practical AI learning systems, reliability playbooks, and career-transition roadmaps through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
 
 My GitHub is organized around one idea: **learn AI through structured paths, real projects, and evaluation-driven thinking instead of random tutorials and hype.**
+
+<!--LATEST_SECTION_START-->
+## Latest
+
+Updated automatically on 27 Mar 2026 from the flagship repositories.
+
+- **27 Mar 2026** — [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns) — Reactive, BDI, layered, and utility-based agent design patterns with runnable examples.
+- **27 Mar 2026** — [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) — Practical Cursor workflows for repo discovery, planning, implementation, debugging, testing, and review.
+- **27 Mar 2026** — [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) — Evaluation patterns, release gates, and anti-hallucination techniques for developer-focused AI workflows.
+
+Current emphasis: applied showcase work, reliability-first workflows, and structured AI learning paths.
+<!--LATEST_SECTION_END-->
 
 ## What I Am Building
 

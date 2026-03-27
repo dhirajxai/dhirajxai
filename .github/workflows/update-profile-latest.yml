@@ -1,0 +1,40 @@
+name: Update Profile Latest Section
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Regenerate portrait hero assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_portrait_hero.py
+
+      - name: Update latest section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_latest_section.py
+
+      - name: Commit profile updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update profile latest section
+          file_pattern: README.md assets/hero-light.svg assets/hero-dark.svg
