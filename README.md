@@ -156,14 +156,6 @@ These public ecosystems have strongly influenced the way I structure these repos
 [![Mesa](https://img.shields.io/badge/projectmesa-mesa-purple)](https://github.com/projectmesa/mesa)
 [![Ray/RLlib](https://img.shields.io/badge/ray--project-ray-yellow)](https://github.com/ray-project/ray)
 
-## GitHub Snapshot
 
-![Dhiraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=dhirajkrsingh&show_icons=true&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dhirajkrsingh&layout=compact&theme=default)
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/dhirajkrsingh)
-[![Twitter](https://img.shields.io/badge/Twitter-@dhirajkrsingh-blue?logo=twitter)](https://twitter.com/dhirajkrsingh)
 
 If you are learning from these repositories, start with the repo that matches your goal and move in sequence instead of jumping randomly.
