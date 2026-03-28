@@ -43,9 +43,9 @@ This GitHub is meant to function as:
 
 Updated automatically on 28 Mar 2026 from the flagship repositories.
 
+- **28 Mar 2026** — [ai-career-transition-roadmap](https://github.com/dhirajxai/ai-career-transition-roadmap) — Practical roadmap for switching into AI from software, data, product, QA, ops, design, or non-technical roles.
 - **27 Mar 2026** — [agent-architecture-patterns](https://github.com/dhirajxai/agent-architecture-patterns) — Reactive, BDI, layered, and utility-based agent design patterns with runnable examples.
 - **27 Mar 2026** — [cursor-ai-development-workflows](https://github.com/dhirajxai/cursor-ai-development-workflows) — Practical Cursor workflows for repo discovery, planning, implementation, debugging, testing, and review.
-- **27 Mar 2026** — [llm-evals-and-anti-hallucination](https://github.com/dhirajxai/llm-evals-and-anti-hallucination) — Evaluation patterns, release gates, and anti-hallucination techniques for developer-focused AI workflows.
 
 Current emphasis: applied showcase work, reliability-first workflows, and structured AI learning paths.
 <!--LATEST_SECTION_END-->
